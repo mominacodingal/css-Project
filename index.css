@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,body{
+ height: 100%;
+ width: 100%;
+ background-color: #d5ff40;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    background-color: #d5ff40;
+
+}
+
+nav {
+    width: 80%;
+    padding: 60px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .div1 {
+
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    gap: 100px;
+}
+
+nav h2{
+    font-size: 48px;
+    font-weight: 500;
+}
+
+nav a {
+
+    font-size: 28px;
+    color: black;
+    text-decoration: none;
+}
+
+section .herotext1 {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 60px;
+
+}
+
+.herotext1 h2 {
+    font-size: 170px;
+    font-family: poppins;
+    font-weight: 900;
+    line-height: 100px;
+
+}
+
+.herotext1 .video {
+    height: 100px;
+    width: 400px;
+    border-radius: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-image: url(https://wallpapers.com/images/hd/black-and-white-geometric-1920-x-1079-wallpaper-o616t8bmpcltdfr1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 3px;
+
+}
+.video .play{
+    height: 100%;
+    width: 100px;
+    background-color:white;
+    border-radius:80px;
+    border: 4px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor'%3E%3Cpath d='M8 18.3915V5.60846L18.2264 12L8 18.3915ZM6 3.80421V20.1957C6 20.9812 6.86395 21.46 7.53 21.0437L20.6432 12.848C21.2699 12.4563 21.2699 11.5436 20.6432 11.152L7.53 2.95621C6.86395 2.53993 6 3.01878 6 3.80421Z'%3E%3C/path%3E%3C/svg%3E");
+    
+    }
+.play i {
+    font-size: 50px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section .herotext2 {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-left: 50px;
+    line-height: 30px;
+    
+
+
+}
+
+.herotext2 h2 {
+    font-size: 180px;
+    font-family: poppins;
+    font-weight: 900;
+    line-height: 100px;
+
+}
+
+.herotext2 p{
+    font-size: 40px;
+    text-transform: uppercase;
+    width: 700px;
+    font-weight: 800;
+    height: 40px;
+    
+}
+
+
+ .image {
+    
+    height: 900px;
+    width: 90%;
+    border-radius: 180px;
+    margin-left: 5%;
+    padding-top: 10%;
+    margin-top: 200px;
+    background-image: url(https://img.freepik.com/premium-photo/colorful-3d-abstract-background-wallpaper-with-pastel-colors_692702-11217.jpg?w=740);
+    background-size: cover;
+    background-position: relative;
+    
+}
+
+.image .arrow{
+  
+    background-size: cover;
+    background-position: absolute;
+    background-color: white;
+    border: 5px solid black;
+    top: 10%;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor'%3E%3Cpath d='M5.63589 19.7784L4.22169 18.3644L15.657 6.92908L10.0712 6.92908V4.92908L19.0712 4.92908L19.0712 13.9291H17.0712L17.0712 8.34326L5.63589 19.7784Z'%3E%3C/path%3E%3C/svg%3E");
+
+}
+
+
+section .buttonlike{
+    border-radius: 70px;
+    border: 3px solid blueviolet;
+    color: black;
+    margin-top: 100px;
+    line-height: 100px;
+    height: 100px;
+    width: 400px;
+    font-size: 40px;
+    padding-left: 100px;
+    
+    font-weight: 300;
+   
+
+}
+
+.arrow i{
+    font-size: 100px;
+}
